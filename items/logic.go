@@ -17,6 +17,6 @@ func (s *itemsService) GetByID(itemID string) (*Item, *errors.RestErr) {
 	return nil, errors.NewInternatServerError("not implemented")
 }
 
-func (s *itemsService) Create(item Item) (*Item, *errors.RestErr) {
+func (s *itemsService) Create(item *Item) (*Item, *errors.RestErr) {
 	return nil, errors.NewInternatServerError("not implemented")
 }
